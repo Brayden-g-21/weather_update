@@ -8,7 +8,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #cecece;
+    background-color: #1200b1;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 li {
@@ -17,7 +19,7 @@ li {
 
 li a {
     display: block;
-    color: #333;
+    color: #fdfbfb;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,9 +46,15 @@ hr {
     border: none;
 }
 
+.divider {
+    border: 3px solid black;
+    height: 0;
+    margin: 0;
+}
+
 .page {
     padding: 2em;
-    background: #cecece;
+    background-image: linear-gradient(rgb(252, 111, 59), rgb(97, 97, 236));
     max-width: 100%;
 }
 
